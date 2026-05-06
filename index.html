@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paint</title>
+        <link rel="stylesheet" href="paint.css">
+    </head>
+    <body>
+        <div id="toolbar">
+            <input type="color" id="color-picker" value="#000000" />
+            <input type="range" id="brush-size" min="1" max="50" value="5" />
+            <button id="clear-button">Clear</button>
+            <button id="fill-button">Fill</button>
+            <button id="download-button">Download</button>
+        </div>
+        <canvas id="board" width="640" height="480"></canvas>
+        <script src="paint.js"></script>
+    </body>
+</html>
